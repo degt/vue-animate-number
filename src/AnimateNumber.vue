@@ -3,7 +3,7 @@
     :style="numColor"></span>
 </template>
 <script>
-  import shifty from './shifty'
+  var shifty = require('shifty')
   const MANUAL = 'manual'
   const AUTO = 'auto'
 
